@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.form-table{
+    border: 2px solid black;
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    padding: 2rem;
+    line-height: 2px;
+    background-color: aqua;
+    top: 10%;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="radio"]
+textarea{
+    padding: 8px;
+    border-radius: 30PX;
+    margin: 10px 0;
+    gap: 4rem;
+    width: 95%;
+}
+.btn-submit{
+    float: right;
+}
